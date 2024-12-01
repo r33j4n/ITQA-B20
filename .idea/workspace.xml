@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25ea8c8f-0419-4a82-9b35-04b40391b80a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/synapse/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/synapse/AppTest.java" afterDir="false" />
+    <list default="true" id="25ea8c8f-0419-4a82-9b35-04b40391b80a" name="Changes" comment="Project Initiated">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/CucumberTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ApiSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/api_testing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,10 +52,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Feature: api_testing.executor": "Run",
+    "JUnit.CucumberTestSuite.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.ITQA-B20 [clean,-U].executor": "Run",
     "Maven.ITQA-B20 [clean,install,-U].executor": "Run",
     "Maven.ITQA-B20 [clean,install].executor": "Run",
+    "Maven.ITQA-B20 [clean,verify].executor": "Run",
     "Maven.ITQA-B20 [mvn,clean,install,-U].executor": "Run",
     "Maven.demo [clean,install,-U].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -64,6 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,6 +86,7 @@
       <command value="mvn mvn clean install -U" />
       <command value="mvn clean install -U " />
       <command value="mvn clean install" />
+      <command value="mvn clean verify " />
     </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,11 +97,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733086567753</updated>
-      <workItem from="1733086570134" duration="829000" />
+      <workItem from="1733086570134" duration="1956000" />
     </task>
+    <task id="LOCAL-00001" summary="Project Initiated">
+      <option name="closed" value="true" />
+      <created>1733087459599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733087459599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project Initiated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Initiated" />
   </component>
 </project>

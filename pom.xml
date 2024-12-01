@@ -24,8 +24,8 @@
     <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-core -->
     <dependency>
       <groupId>net.serenity-bdd</groupId>
-      <artifactId>serenity-core</artifactId>
-      <version>4.2.9</version>
+      <artifactId>serenity-rest-assured</artifactId>
+      <version>4.2.9</version> <!-- Use the same version as your Serenity Core -->
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-cucumber -->
@@ -59,6 +59,12 @@
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit</artifactId>
       <version>7.14.0</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>RELEASE</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>
