@@ -72,4 +72,18 @@
       <version>2.0.9</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>  <!-- You can use a newer version as needed -->
+            <configuration>
+                <source>18</source>  <!-- Use the Java version you have installed (e.g., 11, 17) -->
+                <target>18</target>  <!-- Use the Java version you have installed -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 </project>
